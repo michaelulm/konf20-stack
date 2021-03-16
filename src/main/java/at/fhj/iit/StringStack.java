@@ -33,7 +33,7 @@ public class StringStack implements IStack {
     this.stackName = stackName;
   }
 
-  private String stackName = "";
+  private String stackName = "test";
 
 
 
