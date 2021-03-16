@@ -25,6 +25,18 @@ public class StringStack implements IStack {
   private int elementCount;
 
 
+  public String getStackName() {
+    return stackName;
+  }
+
+  public void setStackName(String stackName) {
+    this.stackName = stackName;
+  }
+
+  private String stackName = "";
+
+
+
   /**
    * Constructor that initializes the stack with the given size.
    *
